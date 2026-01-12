@@ -16,9 +16,6 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
 
-<!-- QR Code -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
 <style>
 body{
     margin:0;
@@ -192,14 +189,9 @@ a lifetime together”
 <button class="whatsapp" onclick="shareWhatsApp()">Share on WhatsApp</button>
 </div>
 
-<div class="section">
-<h3>📷 Scan Invitation</h3>
-<div id="qrcode"></div>
-</div>
-
 <div class="footer">
 With Love ❤️<br>
-<b>Samast Mitawa Parivaar</b>
+<b>Samast Parivaar</b>
 </div>
 
 </div>
@@ -214,11 +206,6 @@ function shareWhatsApp(){
     "_blank"
   );
 }
-new QRCode(document.getElementById("qrcode"),{
-  text:"https://prmusaini6565.github.io/arvind-monika-wedding/",
-  width:160,
-  height:160
-});
 </script>
 
 </body>
